@@ -1,0 +1,96 @@
+Assiginment 3 
+
+Text file 
+Toy story: adventure 1995
+Post man, the (postino I) (1994)
+Two if by sea (1996)
+Mr. holland’s opus (1995)
+Bio -Dome (1996)
+Two bit(1995)
+Fair Game (1995)
+Big bully (1996)
+
+
+//main java
+
+import java.util.*’;
+
+Import java.io.*;
+public class main{
+public static void main (String []args) throws Exception{
+
+Scanner file = new Scanner (new File (“movies.txt”));
+String movie =’’’’’,year =”’ title””;
+String [] parts =new string [2]; hashmap  hashmap=hashmap.create();
+sortedhashmap<string,string>=serialnull,serial1=null,
+serial2=null;
+System.out.println(“Printing Full hashmap:”);
+
+While(file.hasNextLine()){
+parts=movie.split(“,”);
+movie=file.nextLine();
+hashmap.put(title,year);
+hashmap.put(title,year);
+hashmap.print();
+serial=hashmap.serialhashmap(“
+serial1=hashmap.serialhashmap()
+serial2=hashmap.serialhashmap(
+Serial =hashmap.serialhashmap(“Toy story: adventure 1995,Post man, the (postino I) (1994)”)
+serial1=hashmap.subhashmap(“Two if by sea (1996)”Mr. holland’s opus (1995)”);
+serial3=hashmap.subhashmap(“Bio -Dome (1996),(“Two bit(1995)")
+
+
+
+,
+system.out.println(“\nPrinting3serialhashmaps:”);
+System.out.print(su:”+serial.tostring()+”\n”+”serial1:”+serial1.
+string()+”\n”+serial2:toString());file.close();
+}
+}
+//track.java
+Important java.util.*;
+Public class track extents  newtrack<string,string>{
+private static String movieName;
+private static String releaseDate;
+Private static flag allflag;
+//*****Input:
+Process:intilization
+Output: returning
+****/
+Public flag(string name, String year){
+movieName =name;
+Release Date =year;
+}
+//****input: no input
+Processing it will get key of the track;
+***//
+Public getGreen(){
+return movieName;
+}
+Public String getvalues(){
+Return ReleaseDate,
+}
+//****Input :none
+Output:its formatted the string
+****//
+Public String to String(){
+Return “{“+getgreen()+”=”+getvalues()+}”;
+}
+//****Input no input
+Processing: it  returns to the newtrack
+Output:new track
+***//
+public static track create(){
+allflag=newflag (movieName,releaseDate)
+
+/***
+Input :none
+Output : no output
+***/
+Public static void print(){
+system.out.println(allflag.toString()):
+}
+}
+
+
+
